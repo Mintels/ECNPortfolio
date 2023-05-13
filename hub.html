@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8"     />
+        <link    href="css\hub.css"     rel="stylesheet" />
+		<title>Main Lobby</title>
+	</head>
+    <body>
+        <div class = "row">
+            <div class = "menubar">
+
+                <button type="button" onclick="Home()"> <b>Home</b> </button>
+                
+                <script>
+                    function Home() {
+                        location.replace("hub.html")
+                    }
+                </script>
+    
+                <button type="button" onclick="Projects()"> <b>Projects</b> </button>
+                <script>
+                   function Projects() {
+                    location.replace("html/index.html");
+                   }
+                </script>
+
+                <button type="button" onclick="Filler()">  <b>Filler</b> </button>
+                <script>
+                    function Filler() {
+                     location.replace("html/filler.html");
+                    }
+                </script>
+                <button type="button" onclick="About()"> <b>About</b>  </button>
+                <script>
+                    function About() {
+                     location.replace("html/about.html");
+                    }
+                 </script>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8"     />
+        <link    href="..\css\index.css"     rel="stylesheet" />
+		<title>Password Generator</title>
+	</head>
+    <body>
+        <div class = "row">
+            <div class = "menubar">
+
+                <button type="button" onclick="Home()" id="menubar"> <b>Home</b> </button>
+                
+                <script>
+                    function Home() {
+                        location.replace("../hub.html")
+                    }
+                </script>
+    
+                <button type="button" onclick="Projects()" id="menubar"> <b>Projects</b> </button>
+                <script>
+                   function Projects() {
+                    location.replace("index.html");
+                   }
+                </script>
+
+                <button type="button" onclick="Filler()" id="menubar">  <b>Filler</b> </button>
+                <script>
+                    function Filler() {
+                     location.replace("filler.html");
+                    }
+                </script>
+                <button type="button" onclick="About()" id="menubar"> <b>About</b>  </button>
+                <script>
+                    function About() {
+                     location.replace("about.html");
+                    }
+                 </script>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "bases">
+                <h2>Password Generator</h2>
+                <button type="button" onclick="Generate()" id="productgen">Click Me To Generate Your Password.</button>
+                <script src="..\javascript\passwordgen.js"></script>
+                <p id="product"></p>
+            </div>
+        </div>
+    </body>
+</html>
