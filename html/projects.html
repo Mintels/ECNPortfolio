@@ -54,7 +54,7 @@
 
                     var storedItem = localStorage.getItem("storedItem").value;
                     function save(){
-                        var Item = document.getElementById("input").value;
+                        var Item = document.getElementById("product").value;
                         localStorage.setItem("storedItem", Item);
                         document.getElementById("savedText").innerHTML = Item + " Saved";
                     }
