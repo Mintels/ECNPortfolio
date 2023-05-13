@@ -60,7 +60,11 @@
 
                     function get() {
                         localStorage.getItem("storedItem");
-                        document.getElementById("openedText").innerHTML = storedItem + " Opened";
+                        if(storedItem == "undefined") {
+                            document.getElementById("openedText").innerHTML = "&nbsp;";
+                        } else {
+                            document.getElementById("openedText").innerHTML = storedItem + " Opened";
+                        }
                     }
                 </script>
 
