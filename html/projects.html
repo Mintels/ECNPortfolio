@@ -45,34 +45,6 @@
                 <button type="button" onclick="Generate()" id="productgen">Click Me To Generate Your Password.</button>
                 <script src="..\javascript\passwordgen.js"></script>
                 <p id="product"></p>
-                <p id="savedText"> </p>
-                <p id="openedText"> </p>
-                <input type="text" id="input"/>
-                <button onclick="save()">Save</button>
-
-                <script>
-
-                    var storedItem = localStorage.getItem("storedItem").value;
-                    function save(){
-                        var Item = document.getElementById("product").value;
-                        localStorage.setItem("storedItem", Item);
-                        document.getElementById("savedText").innerHTML = Item + " Saved";
-                    }
-
-                    function get() {
-                        localStorage.getItem("storedItem");
-                        if(storedItem == "undefined") {
-                            document.getElementById("openedText").innerHTML = "&nbsp;";
-                        } else {
-                            document.getElementById("openedText").innerHTML = storedItem + " Opened";
-                        }
-                    }
-                </script>
-
-
-                
-                
-
             </div>
         </div>
     </body>
