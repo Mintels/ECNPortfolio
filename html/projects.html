@@ -5,7 +5,7 @@
         <link    href="..\css\index.css"     rel="stylesheet" />
 		<title>Password Generator</title>
 	</head>
-    <body>
+    <body onload="get()">
         <div class = "row">
             <div class = "menubar">
 
@@ -43,7 +43,29 @@
                 <h2>Password Generator</h2>
                 <button type="button" onclick="Generate()" id="productgen">Click Me To Generate Your Password.</button>
                 <script src="..\javascript\passwordgen.js"></script>
-                <p id="product"></p>
+                <input type="text" id="product"/>
+                <p id="prevsave"> </p>
+                <button onclick="save()">Save</button>
+
+                <script>
+
+                    var storedItem = localStorage.getItem("storedItem").value;
+                    function save(){
+                        var Item = document.getElementById("product").value;
+                        localStorage.setItem("storedItem", Item);
+                        document.getElementById("presave").innerHTML = Item + " Saved";
+                    }
+
+                    function get() {
+                        localStorage.getItem("storedItem");
+                        document.getElementById("presave").innerHTML = storedItem + " Opened";
+                    }
+                </script>
+
+
+                
+                
+
             </div>
         </div>
     </body>
