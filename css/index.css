@@ -6,7 +6,6 @@ div.row      {
 
 body {
  background-image: url("..\\images\\Wallpaper.jpg");
- text-align: center;
 }
 
 
@@ -27,8 +26,7 @@ div.col-25  {
 
 	width:  25%;
 	height: 50px;
-	position: right;
-
+	text-align: center;
 }					
 
 h2 {
@@ -37,6 +35,7 @@ h2 {
 	font-size: 30px;
 	text-shadow: 0px 2px #5e039a;
 	font-family: Buffalo, Helvetica, monospace;
+	text-align: center;
 }
 
 
@@ -50,24 +49,30 @@ button {
 
 
 #menubar {
+	
 	background: yellow;
 	color: black;
 	text-shadow: 0px 2px #BDAB04;
-	width: 24.5%;
+	font-family: Buffalo, Helvetica, monospace;
+    width: 24.5%;
     height: 50px;
+    text-align: center;
 	font-size: 30px;
+
 }
 
 #productgen {
 	background: yellow;
 	color: black;
 	text-shadow: 0px 2px #BDAB04;
+	text-align: center;
 }
 
 #product {
 
     color: #1DB9FE;
 	font-weight: bold;
+	text-align: center;
 	
 }
 
