@@ -76,3 +76,23 @@ button {
 	
 }
 
+#webhook {
+	opacity: 0;
+	background: #5865F2;
+	color: black;
+	text-shadow: 0px 2px #3641c0;
+	font-family: Buffalo, Helvetica, monospace;
+    text-align: center;
+	font-size: 30px;
+}
+
+#chook {
+	opacity: 0;
+	background: #5865F2;
+	color: black;
+	text-shadow: 0px 2px #3641c0;
+	font-family: Buffalo, Helvetica, monospace;
+    text-align: center;
+	font-size: 30px;
+}
+
