@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook</title>
+  </head>
+  <body>
+    <p>Current message: </p>
+    <p id="data">Not Defined</p>
+    <p>Current Webhook: </p>
+    <p id="webhook">Not Defined</p>
+    <p>Current Username: </p>
+    <p id="username">Not Defined</p>
+    <button onclick="Edit()">Edit Message</button>
+    <button onclick="Webhook()">Change Webhook Link</button>
+    <button onclick="Username()">Change Username</button>
+    <button onclick="Send()">Send Current Message</button>
+  </body>
+
+<script>
+
+    function Send() {
+      const request = new XMLHttpRequest();
+        request.open("POST", document.getElementById("webhook").innerHTML);
+
+        request.setRequestHeader('Content-type', 'application/json');
+
+        const params = {
+          username: document.getElementById("username").innerHTML,
+          avatar_url: "",
+          content: document.getElementById("data").innerHTML
+        }
+
+        request.send(JSON.stringify(params));
+    }
+
+    function Edit() {
+        document.getElementById("data").innerHTML = prompt("What message would you like to send?")
+    }
+
+    function Webhook() {
+        document.getElementById("webhook").innerHTML = prompt("What message would you like to send?")
+    }
+
+    function Username() {
+        document.getElementById("username").innerHTML = prompt("What message would you like to send?")
+    }
+    
+</script>
+  
+</html>
