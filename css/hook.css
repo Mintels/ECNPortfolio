@@ -41,12 +41,9 @@ h2 {
 
 button {
 
-    background: #5865F2;
-	color: black;
-	text-shadow: 0px 2px #3641c0;
 	font-family: Buffalo, Helvetica, monospace;
+    position: left;
     text-align: center;
-	font-size: 30px;
 
 }
 
@@ -86,4 +83,14 @@ button {
 
 #chook {
 	opacity: 0;
+	
+}
+
+#options {
+    background: #5865F2;
+	color: black;
+	text-shadow: 0px 2px #3641c0;
+	font-family: Buffalo, Helvetica, monospace;
+    text-align: center;
+	font-size: 30px;
 }
