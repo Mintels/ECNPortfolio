@@ -81,9 +81,6 @@ button {
 
 }
 
-#chook {
-	color: red;
-}
 
 #options {
     background: #5865F2;
@@ -95,7 +92,7 @@ button {
 }
 
 .infobox {
-    width: 50%;
+    width: 100%;
     height: 400px; 
     background-color:#000000;
 }
@@ -114,5 +111,5 @@ button {
 #general {
     color:#5865F2;
     font-style:italic;
-    font-size: 30px;
+    font-size: 50px;
 }
