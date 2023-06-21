@@ -8,16 +8,21 @@
     <title>Hook Communicator</title>
   </head>
   <body>
-    <p>Current message: </p>
-    <p id="data">Not Defined</p>
-    <p> Current Username: </p>
-    <p id="username">Not Defined</p>
-    <button onclick="Edit()" id="options">Edit Message</button>
-    <button onclick="Webhook()" id="options">Change Webhook Link</button>
-    <button onclick="Username()" id="options">Change Username</button>
-    <button onclick="Send()" id="options">Send Current Message</button>
-    <p id="chook">Current Webhook: </p>
-    <p id="webhook">Not Defined</p>
+    <div class = "infobox">
+      <p>Current message: </p>
+      <p id="data">Not Defined</p>
+      <p> Current Username: </p>
+      <p id="username">Not Defined</p>
+      <p id="chook">Current Webhook: </p>
+      <p id="webhook">Not Defined</p>
+    </div>
+
+    <div>
+      <button onclick="Edit()" id="options">Edit Message</button>
+      <button onclick="Webhook()" id="options">Change Webhook Link</button>
+      <button onclick="Username()" id="options">Change Username</button>
+      <button onclick="Send()" id="options">Send Current Message</button>
+    </div>
   </body>
 
 <script>
@@ -42,11 +47,11 @@
     }
 
     function Webhook() {
-        document.getElementById("webhook").innerHTML = prompt("What message would you like to send?")
+        document.getElementById("webhook").innerHTML = prompt("What would be the webhook link you would like to use?")
     }
 
     function Username() {
-        document.getElementById("username").innerHTML = prompt("What message would you like to send?")
+        document.getElementById("username").innerHTML = prompt("What would you like to change the username to?")
     }
     
 </script>

@@ -94,3 +94,9 @@ button {
     text-align: center;
 	font-size: 30px;
 }
+
+infobox {
+    width: 50%;
+    height: 400px; 
+    background: #000000;
+}
