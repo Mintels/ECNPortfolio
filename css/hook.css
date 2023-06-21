@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Geologica');
-
+@import url('https://fonts.googleapis.com/css?family=Caveat');
 div.row      {         
     clear: both;	
 }
@@ -80,6 +80,7 @@ button {
 #webhook {
 	color: blueviolet;
 	font-size: 20px;
+	font-family: 'Caveat';
 }
 
 
@@ -90,6 +91,7 @@ button {
 	font-family: Buffalo, Helvetica, monospace;
     text-align: center;
 	font-size: 30px;
+	width: 25%;
 }
 
 .infobox {
@@ -101,11 +103,13 @@ button {
 #data {
     color:blueviolet;
     font-size: 20px;
+	font-family: 'Caveat';
 }
 
 #username {
     color:blueviolet;
     font-size: 20px;
+	font-family: 'Caveat';
 }
 
 #general {
