@@ -90,11 +90,32 @@ button {
 	color: black;
 	text-shadow: 0px 2px #3641c0;
 	font-family: Buffalo, Helvetica, monospace;
-    text-align: left;
+    text-align: center;
 	font-size: 25px;
-	width: 24%;
+	width: 25%;
 }
 
+#optionsr {
+	position: absolute;
+    background: #5865F2;
+	color: black;
+	text-shadow: 0px 2px #3641c0;
+	font-family: Buffalo, Helvetica, monospace;
+    text-align: right;
+	font-size: 25px;
+	width: 25%;
+}
+
+#optionsl {
+	position: absolute;
+    background: #5865F2;
+	color: black;
+	text-shadow: 0px 2px #3641c0;
+	font-family: Buffalo, Helvetica, monospace;
+    text-align: left;
+	font-size: 25px;
+	width: 25%;
+}
 
 
 .infobox {
