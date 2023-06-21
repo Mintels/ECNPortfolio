@@ -85,14 +85,17 @@ button {
 
 
 #options {
+	position: absolute;
     background: #5865F2;
 	color: black;
 	text-shadow: 0px 2px #3641c0;
 	font-family: Buffalo, Helvetica, monospace;
     text-align: center;
-	font-size: 30px;
-	width: 25%;
+	font-size: 25px;
+	width: 24.5%;
 }
+
+
 
 .infobox {
     width: 100%;
