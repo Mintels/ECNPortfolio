@@ -132,6 +132,7 @@ button {
 
 .button-child {
 	width: 20%;
+	float: left;
 	border-color: white; 
 }
 
