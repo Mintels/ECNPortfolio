@@ -8,16 +8,23 @@
     <title>Communicator</title>
   </head>
   <body>
-    <div class = "infobox">
-      <p id="general">Current message: </p>
-      <p id="data">Not Defined</p>
-      <p id="general">Current Webhook: </p>
-      <p id="webhook">Not Defined</p>
-      <p id="general"> Current Username: </p>
-      <p id="username">Not Defined</p> 
+
+    <div class="float-container">
+      <div class="float-child">
+        <p id="general">Current message: </p>
+        <p id="data">Not Defined</p>
+        <p id="general">Current Webhook: </p>
+        <p id="webhook">Not Defined</p>
+        <p id="general"> Current Username: </p>
+        <p id="username">Not Defined</p> 
+      </div>
+
+      <div class="float-child">
+        <iframe src="https://discordapp.com/widget?id=758890460109340692&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      </div>
+
     </div>
 
-    <div><iframe src="https://discordapp.com/widget?id=758890460109340692&theme=dark" height="575px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 
     <div>
       <button onclick="Edit()" id="options">Edit Message</button>
