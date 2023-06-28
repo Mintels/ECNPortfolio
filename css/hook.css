@@ -46,7 +46,6 @@ h2 {
 button {
 
 	font-family: Buffalo, Helvetica, monospace;
-    position: left;
     text-align: center;
 
 }
@@ -133,7 +132,6 @@ button {
 
 .button-child {
 	width: 20%;
-	float: left; 
 	border-color: white; 
 }
 
