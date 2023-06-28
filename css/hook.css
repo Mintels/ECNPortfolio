@@ -115,13 +115,10 @@ button {
 }
 
 .float-container {
-	border: 3px solid #fff;
-	padding: 20px;
+	border: 0px solid #fff;
 }
 
 .float-child {
-	width: 50%;
+	width: 40%;
 	float: left; 
-	padding: 20px;
-	border: 2px solid red;
 }
