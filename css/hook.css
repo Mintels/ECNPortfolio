@@ -82,7 +82,7 @@ button {
 
 #webhook {
 	color: blueviolet;
-	font-size: 20px;
+	font-size: 25%;
 }
 
 
@@ -101,17 +101,17 @@ button {
 
 #data {
     color:blueviolet;
-    font-size: 12.5%;
+    font-size: 25%;
 }
 
 #username {
     color:blueviolet;
-    font-size: 12.5%;
+    font-size: 25%;
 }
 
 #general {
     color:#5865F2;
-    font-size: 25%;
+    font-size: 50%;
 }
 
 .float-container {
