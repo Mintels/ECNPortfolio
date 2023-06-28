@@ -119,13 +119,13 @@ button {
 }
 
 .float-child {
-	width: 45%;
+	width: 50%;
 	float: left; 
 	background-color: #000000;
-	height: 800px;
+	height: 1000px;
 	border-color: white; 
 }
 
 iframe { 
-	width: 90%;
+	width: 95%;
 }
