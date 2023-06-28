@@ -134,8 +134,6 @@ button {
 .button-child {
 	width: 10%;
 	float: left; 
-	background-color: #000000;
-	border-color: white; 
 }
 
 iframe { 
