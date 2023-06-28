@@ -120,7 +120,7 @@ button {
 
 .float-child {
 	width: 50%;
-	float: right; 
+	float: left; 
 	background-color: #000000;
 	height: 35.938rem;
 	border-color: white; 
