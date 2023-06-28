@@ -122,11 +122,11 @@ button {
 	width: 50%;
 	float: left; 
 	background-color: #000000;
-	height: 1000px;
+	height: 575px;
 	border-color: white; 
 }
 
 iframe { 
 	width: 95%;
-	height:990px;
+	height:570px;
 }
