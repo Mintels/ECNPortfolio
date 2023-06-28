@@ -121,4 +121,10 @@ button {
 .float-child {
 	width: 45%;
 	float: left; 
+	background-color: #000000;
+	height: 575px;
+}
+
+iframe { 
+	width: 40%;
 }
