@@ -81,7 +81,7 @@ button {
 
 #webhook {
 	color: blueviolet;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 
 
@@ -101,12 +101,12 @@ button {
 
 #data {
     color:blueviolet;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #username {
     color:blueviolet;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #general {
@@ -137,6 +137,6 @@ button {
 }
 
 iframe { 
-	width: 95%;
+	width: 100%;
 	height:35.625rem;
 }
