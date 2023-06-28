@@ -127,6 +127,17 @@ button {
 	border-color: white; 
 }
 
+.button-container {
+	border: 0px solid #fff;
+}
+
+.button-child {
+	width: 20%;
+	float: left; 
+	background-color: #000000;
+	border-color: white; 
+}
+
 iframe { 
 	width: 95%;
 	height:35.625rem;

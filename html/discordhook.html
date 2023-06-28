@@ -28,12 +28,23 @@
     </div>
 
 
-    <div>
-      <button onclick="Edit()" id="options">Edit Message</button>
-      <button onclick="Webhook()" id="options">Change Webhook Link</button>
-      <button onclick="Username()" id="options" >Change Username</button>
-      <button onclick="Send()" id="options">Send</button>
-      <button onclick="Support()" id="options">Support</button>
+    <div class="button-container">
+      <div class="button-child">
+        <button onclick="Edit()" id="options">Edit Message</button>
+      </div>
+      <div class="button-child">
+        <button onclick="Webhook()" id="options">Change Webhook Link</button>
+      </div>
+      <div class="button-child">
+        <button onclick="Username()" id="options" >Change Username</button>
+      </div>
+      <div class="button-child">
+        <button onclick="Send()" id="options">Send</button>
+      </div>
+      <div class="button-child">
+        <button onclick="Support()" id="options">Support</button>
+      </div>
+    
       <script>
         function Support() {
          location.replace("https://discord.gg/DtS4Sgm5dW");
