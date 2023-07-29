@@ -11,6 +11,39 @@
   </head>
   <body>
 
+    <div class = "row">
+      <div class = "menubar">
+
+          <button type="button" onclick="Home()" id="menubar"> <b>Home</b> </button>
+          
+          <script>
+              function Home() {
+                  location.replace("index.html")
+              }
+          </script>
+
+          <button type="button" onclick="Projects()" id="menubar"> <b>Projects</b> </button>
+          <script>
+             function Projects() {
+              location.replace("html/projects.html");
+             }
+          </script>
+
+          <button type="button" onclick="Filler()" id="menubar">  <b>Programs</b> </button>
+          <script>
+              function Filler() {
+               location.replace("html/programs.html");
+              }
+          </script>
+          <button type="button" onclick="About()" id="menubar"> <b>About</b>  </button>
+          <script>
+              function About() {
+               location.replace("html/about.html");
+              }
+           </script>
+        </div>
+    </div>
+
     <div class="float-container">
       <div class="float-child">
         <p id="general">Current message: </p>
