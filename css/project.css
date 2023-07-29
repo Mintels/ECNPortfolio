@@ -90,8 +90,7 @@ button {
 
 #imageframer {
     width: 60%;
-    height: 460px;
-    
+    height: auto;
 }
 
 .center {
