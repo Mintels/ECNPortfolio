@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 div.row      {         
-    clear: both;	
+    clear: both;
+    height: auto;	
 }
 
 body {
@@ -99,3 +100,7 @@ button {
     margin-right: auto;
     width: 50%;
   }
+
+.bases {
+    height: auto;
+}
