@@ -3,7 +3,7 @@
 	<head>
         <meta charset="utf-8"     />
         <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-        <link    href="..\css\index.css"     rel="stylesheet" />
+        <link    href="..\css\project.css"     rel="stylesheet" />
 		<title>Password Generator</title>
 	</head>
     <body onload="get()">
@@ -42,19 +42,23 @@
         <div class = "row">
             <div class = "bases">
                 <h2>Current Projects</h2>
-                
+               <div id="framer">
                 <button type="button" id="product" onclick="passgen()">Password Generator</button>
                 <script>
                     function passgen() {
                      location.replace("passwordgen.html");
                     }
                  </script>
-               <button type="button" id="product" onclick="discordhook()">Discord Hook Communicator</button>
+               </div> 
+               <div id="framer">
+                <button type="button" id="product" onclick="discordhook()">Discord Hook Communicator</button>
                 <script>
                     function discordhook() {
                      location.replace("discordhook.html");
                     }
                  </script>
+                <img src="../images/webhook.png" id="imageframer" class="center">
+               </div>
             </div>
         </div>
     </body>
