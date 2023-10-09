@@ -54,10 +54,11 @@ button {
 	color: black;
 	text-shadow: 0px 2px #BDAB04;
 	font-family: Buffalo, Helvetica, monospace;
-    width: 24.5%;
+	width: 50%;
     height: 50px;
     text-align: center;
 	font-size: 30px;
+	float: left;
 
 }
 
