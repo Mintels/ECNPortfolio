@@ -31,9 +31,9 @@ div.col-25  {
 
 h2 {
 	color: black;
-	background: rgb(111, 0, 255);
+	background: rgb(255, 0, 0);
 	font-size: 30px;
-	text-shadow: 0px 2px #5e039a;
+	text-shadow: 0px 2px #9a0303;
 	font-family: Buffalo, Helvetica, monospace;
 	text-align: center;
 }
@@ -49,7 +49,7 @@ button {
 
 
 #menubar {
-	background: #3b82f6;
+	background: #f63b3b;
 	color: white;
 	font-family: Buffalo, Helvetica, monospace;
 	width: 50%;
@@ -62,9 +62,9 @@ button {
 }
 
 #productgen {
-	background: #80c6ff;
+	background: #ff8080;
 	color: white;
-	text-shadow: 0px 2px #60c0e7;
+	text-shadow: 0px 2px #e76060;
 	text-align: center;
     float: left;
     width: 100%;
@@ -91,16 +91,16 @@ button {
 }
 
 #generator {
-	background-color: rgb(52, 115, 192);
+	background-color: rgb(192, 52, 52);
 	color: white;
     width: 100%; 
     height: auto;
 }
 
 #title {
-	background: #276ad5;
+	background: #d52727;
 	color: white;
-	text-shadow: 0px 2px #78d3f6;
+	text-shadow: 0px 2px #f67878;
 }
 
 .button-container {
@@ -115,7 +115,7 @@ button {
 
 #options {
 
-	background: #3b82f6;
+	background: #f63b3b;
 	color: white;
     font-family: Buffalo, Helvetica, monospace;
     font-size: 20px;
@@ -125,6 +125,6 @@ button {
 }
 
 #permafiller {
-	background-color: rgb(52, 115, 192);
+	background-color: rgb(192, 52, 52);
 	height: 200px;
 }

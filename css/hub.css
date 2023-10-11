@@ -78,3 +78,15 @@ button {
 	
 }
 
+.name {
+	font-size: 90px;
+	text-align: center;
+	font-family: Buffalo, Helvetica, monospace;
+	
+}
+
+#namecontainer {
+	width: 100%;
+    height: 500px;
+}
+
