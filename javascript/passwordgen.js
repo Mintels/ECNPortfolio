@@ -11,7 +11,7 @@ function Generate() {
     // Checks if Length is Advised or Not
     if(length>30 || length<5) { // If Length is not advised -->
         // console.log("Too Long, Try Again.");
-        document.getElementById('product').innerHTML = ("Too Long/Too Short, Try Again.");
+        document.getElementById('product').innerHTML = ("Too Long/Too Short, Try Again. (Password Length must be between 5-30.)");
     } else { // If the Length is in advised range -->
         for(let tc = length; tc>0; tc--) {
             // Type of Character We will be adding to the Password

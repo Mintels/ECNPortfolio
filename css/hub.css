@@ -97,19 +97,37 @@ button {
 
 
 #socialbut {
-	background: #000000;
-	display: block;
+	display: flex;
 	justify-items: center;
 	align-items:center;
 	justify-content: center;
 	color: white;
 	font-family: sans-serif;
-	width: 25%;
-    height: 40px;
+    height: 60px;
     text-align: center;
-	font-size: 15px;
-	float: left;
+	object-fit: cover;
 	border-color: white; 
+	
+}
+
+#area {
+	float:left;
+	display: flex;
+	justify-items: center;
+	align-items:center;
+	justify-content: center;
+	color: white;
+	font-family: sans-serif;
+    height: 60px;
+	width:25%;
+    text-align: center;
+	object-fit: cover;
+	border-color: white; 
+	
+}
+
+#social  {
+	width:50%;
 }
 
 #filler {
