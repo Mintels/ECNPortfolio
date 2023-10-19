@@ -98,7 +98,7 @@ button {
 
 #socialbut {
 	background: #000000;
-	display: flex;
+	display: block;
 	justify-items: center;
 	align-items:center;
 	justify-content: center;
@@ -125,5 +125,7 @@ button {
 }
 
 a {
+	display: block;
+	text-decoration: none;
 	color: white;
 }
